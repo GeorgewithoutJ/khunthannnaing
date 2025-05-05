@@ -1,0 +1,70 @@
+body {
+  font-family: Tahoma;
+  scroll-behavior: smooth;
+  padding-top: 70px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+
+.project-section {
+  display: none;
+  transition: opacity 0.3s ease-in-out;
+}
+.project-section.active {
+  display: block;
+}
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.card-body {
+  padding: 1.25rem;
+}
+
+
+#backToTop {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.dark-mode .navbar {
+  background-color: #333;
+  color: white;
+}
+/* Ensure container centers content */
+#skills .container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* Style each progress wrapper */
+.progress {
+  height: 25px;
+  border-radius: 20px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+/* Animate bar width */
+.progress-bar {
+  transition: width 0.5s ease-in-out;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  color: #000;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+
+

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise3</title>
+    <script type="text/javascript">
+        function convert(){
+            var num = parseFloat(document.getElementById('input').value);
+            var result1 = document.getElementById('result1');
+            var Convert = num * 100000;
+            result1.innerHTML = num + " KILOMETER IS " + Convert + " cm"; 
+        }
+    </script>
+</head>
+<body>
+    <input type="text" id="input">
+    <button onclick="convert();">Submit</button><br>
+
+    <div id = "result1"></div>
+    <div id = "result2"></div>
+</body>
+</html>

@@ -1,0 +1,27 @@
+body{
+    background-color: aquamarine;
+  }
+  h1{
+    color:black;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight:bold;
+  }
+  h2{
+    color: red;
+    font-family:'Times New Roman', Times, serif;
+    font-size:20px;
+    font-weight:bold;
+  }
+  ol{
+    color:brown;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style:italic;
+  }
+  li{
+    color:rgb(245, 4, 4);
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-style:italic;
+  }

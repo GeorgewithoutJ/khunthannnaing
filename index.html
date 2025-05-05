@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="Khun.css" />
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" tabindex="0">
+
+  <!-- Navbar -->
+  <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Khun's Humcom Portfolio</a>
+      <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navContent">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navContent">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+          <li class="nav-item"><a class="nav-link" href="#skills">SKILLS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#projects">PROJECTS</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+        </ul>
+        <button id="toggleMode" class="btn btn-sm btn-outline-light ms-3">Dark Mode</button>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="vh-100 d-flex justify-content-center align-items-center text-center">
+    <div data-aos="fade-up">
+      <h1>KHUN THAN NAING</h1>
+      <p>University of Baguio</p>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section id="about" class="container py-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <img src="PFP.jpg" alt="My Photo" class="img-fluid rounded shadow" height="50%" width="50%">
+      </div>
+      <div class="col-md-6">
+        <h2>About Me</h2>
+        <p>Hello everyone. My name is Khun Than Naing. I am a student in University of Baguio. I am from Myanmar.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="bg-light py-5">
+    <div class="container text-center">
+      <h2 class="mb-4">Skills</h2>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-success" id="htmlBar" style="width: 45%;">HTML</div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-info" id="cssBar" style="width: 70%;">CSS</div>
+      </div>
+      <div class="progress mb-3">
+        <div class="progress-bar bg-warning" id="jsBar" style="width: 60%;">JavaScript</div>
+      </div>
+    </div>
+  </section>
+  
+ <!-- Projects -->
+ <!-- Projects Section -->
+<section id="projects" class="py-5 bg-light">
+  <div class="container">
+      <h2 class="text-center">Projects</h2>
+      
+      <!-- First Grading Section -->
+      <div id="prelims" class="my-5">
+          <h3 class="text-center">First Grading</h3>
+          <div class="row mt-4">
+              <div class="col-md-4">
+                  <div class="card shadow">
+                      <img src="FE1.png" class="card-img-top" alt="Prelim Project 1">
+                      <div class="card-body">
+                          <h5 class="card-title">First Grading Project1</h5>
+                          <p class="card-text">We learned about basic HTML.</p>
+                          <a href="LabExercise1A.html" class="btn btn-primary" target="_blank">
+                          View the project
+                          </a>
+                      </div>
+                  </div>
+              </div>
+                    <div class="col-md-4">
+                        <div class="card shadow">
+                            <img src="FE2.png" class="card-img-top" alt="Prelim Project 2">
+                            <div class="card-body">
+                                <h5 class="card-title">First Grading Project 2</h5>
+                                <p class="card-text">Simple HTML tasks.</p>
+                                <a href="LAB Exercise2.html" class="btn btn-primary" target="_blank">
+                                  View the project
+                              </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow">
+                            <img src="FE3.png" class="card-img-top" alt="Prelim Project 3">
+                            <div class="card-body">
+                                <h5 class="card-title">First Grading Project 3</h5>
+                                <p class="card-text">We learned to use ui,li and oi.</p>
+                                <a href="LAB Exercise 3.html" class="btn btn-primary" target="_blank">
+                                View the project
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="card shadow">
+                          <img src="FE4.png" class="card-img-top" alt="Prelim Project 3">
+                          <div class="card-body">
+                              <h5 class="card-title">First Grading Project 4</h5>
+                              <p class="card-text">We learened about clicking the website with css.</p>
+                              <a href="LabExercise4.html" class="btn btn-primary" target="_blank">
+                                  View the project
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="card shadow">
+                        <img src="FE5.png" class="card-img-top" alt="Prelim Project 3">
+                        <div class="card-body">
+                            <h5 class="card-title">First Grading Project 5</h5>
+                            <p class="card-text">We learned to do class schedule.</p>
+                            <a href="LabExercise5.html" class="btn btn-primary" target="_blank"></a>
+                                  View the project
+                              </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                  <div class="card shadow">
+                      <img src="FE6.png" class="card-img-top" alt="Prelim Project 3">
+                      <div class="card-body">
+                          <h5 class="card-title">First Grading Project 6</h5>
+                          <p class="card-text">We did our schedule.</p>
+                          <a href="LabExercise6.html" class="btn btn-primary" target="_blank">
+                                  View the project
+                              </a>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="Fe7.png" class="card-img-top" alt="Prelim Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">First Grading Project 7</h5>
+                        <p class="card-text">We learned how to organize everything we learned in a page with clickable links.</p>
+                        <a href="LabExercise7.html" class="btn btn-primary" target="_blank">
+                                  View the project
+                              </a>
+                    </div>
+                </div>
+            </div>
+          </div>
+      </div>
+      
+      <!-- Midterms Section -->
+      <div id="midterms" class="my-5">
+          <h3 class="text-center">Midterms</h3>
+          <div class="row mt-4">
+              <div class="col-md-4">
+                  <div class="card shadow">
+                      <img src="SE1.png" class="card-img-top" alt="Midterm Project 1">
+                      <div class="card-body">
+                          <h5 class="card-title">Midterm Project 1</h5>
+                          <p class="card-text">Changing the background, color, fond using css.</p>
+                          <a href="ExerciseCSS1.html" class="btn btn-primary" target="_blank">
+                View the project
+            </a>  
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card shadow">
+                      <img src="SE2.png" class="card-img-top" alt="Midterm Project 2">
+                      <div class="card-body">
+                          <h5 class="card-title">Midterm Project 2</h5>
+                          <p class="card-text">Changing the background, color, font using css.</p>
+                          <a href="ExerciseCSS2.html" class="btn btn-primary" target="_blank">
+                View the project
+            </a>  
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card shadow">
+                      <img src="SE3.png" class="card-img-top" alt="Midterm Project 3">
+                      <div class="card-body">
+                          <h5 class="card-title">Midterm Project 3</h5>
+                          <p class="card-text">Changing the background, color, font using css.</p>
+                          <a href="ExerciseCSS3.html" class="btn btn-primary" target="_blank">
+                View the project
+            </a>  
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                <div class="card shadow">
+                    <img src="SE4.png" class="card-img-top" alt="Midterm Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Midterm Project 4</h5>
+                        <p class="card-text">Changing the background, color, font using css.</p>
+                        <a href="ExerciseCSS4.CSS" class="btn btn-primary" target="_blank">
+                View the project
+            </a>  
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+              <div class="card shadow">
+                  <img src="SE5.png" class="card-img-top" alt="Midterm Project 1">
+                  <div class="card-body">
+                      <h5 class="card-title">Midterm Project 5</h5>
+                      <p class="card-text">Changing the background, color, font using css.</p>
+                      <a href="ExerciseCSS5a.html" class="btn btn-primary" target="_blank">
+                View the project
+            </a>  
+                  </div>
+              </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card shadow">
+                <img src="SE6.png" class="card-img-top" alt="Midterm Project 1">
+                <div class="card-body">
+                    <h5 class="card-title">Midterm Project 6</h5>
+                    <p class="card-text">A brief description of the midterm project.</p>
+                    <a href="ExerciseCSS6.html" class="btn btn-primary" target="_blank">
+                View the project
+            </a>  
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card shadow">
+              <img src="SE7.png" class="card-img-top" alt="Midterm Project 1">
+              <div class="card-body">
+                  <h5 class="card-title">Midterm Project 7</h5>
+                  <p class="card-text">Changing the background, color, font using css.</p>
+                  <a href="ExerciseCSS5b.html" class="btn btn-primary" target="_blank">
+                View the project
+            </a>  
+              </div>
+          </div>
+      </div>
+          </div>
+      </div>
+      
+      <!-- Finals Section -->
+      <div id="finals" class="my-5">
+          <h3 class="text-center">Finals</h3>
+          <div class="row mt-4">
+              <div class="col-md-4">
+                  <div class="card shadow">
+                      <img src="EE1.png" class="card-img-top" alt="Final Project 1">
+                      <div class="card-body">
+                          <h5 class="card-title">Final Project 1</h5>
+                          <p class="card-text">Building calculator using JavaScript.</p>
+                          <a href="calculate.html" class="btn btn-primary" target="_blank"
+                    data-skill-html="60" 
+                    data-skill-css="80" 
+                    data-skill-js="66">
+                    View the project
+                </a>   
+                      </div>
+                  </div>
+              </div>
+              
+              <div class="col-md-4">
+                  <div class="card shadow">
+                      <img src="EE2.png" class="card-img-top" alt="Final Project 2">
+                      <div class="card-body">
+                          <h5 class="card-title">Final Project 2</h5>
+                          <p class="card-text">Building a website to identify the numbers whether it is odd or even.</p>
+                          <a href="Lab2F.html" class="btn btn-primary" target="_blank">
+                    View the project
+                </a>   
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card shadow">
+                      <img src="EE3.png" class="card-img-top" alt="Final Project 3">
+                      <div class="card-body">
+                          <h5 class="card-title">Final Project 3</h5>
+                          <p class="card-text">Building a webiste to convert the number to distance.</p>
+                          <a href="Lab3F.html" class="btn btn-primary" target="_blank">
+                    View the project
+                </a>   
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card shadow">
+                      <img src="EE4.png" class="card-img-top" alt="Final Project 3">
+                      <div class="card-body">
+                          <h5 class="card-title">Final Project 4</h5>
+                          <p class="card-text">Building a website to ask a user to input numbers of rows and columns and make a cell.</p>
+                          <a href="Lab4F.html" class="btn btn-primary" target="_blank">
+                    View the project
+                </a>   
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+  </div>
+</section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Contact Me</h2>
+      <form id="contactForm" novalidate>
+        <div class="mb-3">
+          <input type="text" class="form-control" id="name" placeholder="Your Name" required>
+        </div>
+        <div class="mb-3">
+          <input type="email" class="form-control" id="email" placeholder="Your Email" required>
+        </div>
+        <div class="mb-3">
+          <textarea class="form-control" id="message" placeholder="Message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="text-center py-3 bg-dark text-white">
+    &copy; HUMCOM Portfolio
+  </footer>
+
+  <!-- Back to Top -->
+  <button id="backToTop" class="btn btn-secondary">↑</button>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="Khun.js"></script>
+</body>
+</html>
